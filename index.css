@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap');
 
 body {
-    background-color: black;
+    background-color: white;
 }
 
 /*Here is my style for my SpaceXClone website*/
@@ -64,12 +64,10 @@ a:hover {
 }
 
 .navBar2 {
-    /* width: 60%; */
     display: flex;
-    /* position: absolute; */
     justify-content: space-evenly;
     color: #8B939B;
-    /* right: 0px; */
+
 }
 
 .main-picture img {
@@ -81,7 +79,11 @@ a:hover {
 .carousel {
     width: 100vw;
     height: 18vh;
-    background-color: #21272B
+    background-color: #21272B;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 #learn-more-button {
@@ -102,3 +104,72 @@ a:hover {
 #learn-more-button:hover {
     border: 1px solid yellow ;
 }
+
+.last-section {
+    background-color: white;
+    width: 100vw;
+    height: 60vh;
+}
+
+.carousel p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#spacex-text {
+    background-color: white;
+    text-align: center;
+    padding-top: 80px;
+    color: #3A3A3A;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.last-section img {
+    width: 100vw;
+    height: 19vw;
+}
+
+/* .last-section  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: space-evenly; 
+} */
+
+/* .last-row1  {
+    height: 15vh;
+    width: 35vw;
+    text-align: center;
+    height: 15vh;
+    margin: 50px;
+    width: 55px;
+    border: 3px solid black;
+    padding: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: space-evenly; 
+} */
+
+/* .last-row2 {
+    height: 15vh;
+    margin: 50px;
+    width: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.last-row3 {
+    height: 15vh;
+    margin: 50px;
+    width: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+} */
