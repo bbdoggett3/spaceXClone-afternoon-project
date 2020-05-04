@@ -1,1 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap');
+
+body {
+    background-color: black;
+}
+
 /*Here is my style for my SpaceXClone website*/
+header {
+    background-color: #0B0B0B;
+    width: 100vw;
+    height:8vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.header-pic {
+    margin-left: 225px;
+}
+
+.rightNav {
+    color: #8B939B;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    padding-right: 45px;
+    font-size: smaller;
+}
+/* 
+I want to make the circle over the text  */
+/* .rightNavSpecial {
+    color: #8B939B;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    padding-right: 45px;
+    font-size: smaller;
+} */
+
+.leftNav {
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    /* padding-right: 25px; */
+    margin-left: -250px
+}
+
+a:hover {
+    text-decoration: underline;
+    /* border-bottom: 2px solid currentColor; */
+}
+
+/* .rightNavSpecial:hover {
+    text-decoration: circle;
+} */
+
+
+
+.navBar {
+    width: 45%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navBar2 {
+    /* width: 60%; */
+    display: flex;
+    /* position: absolute; */
+    justify-content: space-evenly;
+    color: #8B939B;
+    /* right: 0px; */
+}
+
+.main-picture img {
+    width: 100vw;
+    height: auto;
+
+} 
+
+.carousel {
+    width: 100vw;
+    height: 18vh;
+    background-color: #21272B
+}
+
+#learn-more-button {
+    background-color: white; /* Green */
+    border: none;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#learn-more-button:hover {
+    border: 1px solid yellow ;
+}
